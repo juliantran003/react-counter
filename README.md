@@ -1,1 +1,1 @@
-[Netify](https://app.netlify.com/sites/quirky-bartik-1aad7c/overview)
+[Netify](https://quirky-bartik-1aad7c.netlify.app)
