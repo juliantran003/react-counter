@@ -1,1 +1,70 @@
-/* Other rules */
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+
+  height: 200px;
+  width: 300px;
+
+  display: flex;
+  margin: auto 0;
+
+  margin-top: 200px;
+  align-items: center;
+}
+
+.decrement {
+  position: absolute;
+  border: none;
+  font-size: 96px;
+  left: 0;
+  background: none;
+}
+
+.increment {
+  position: absolute;
+  border: none;
+  font-size: 96px;
+  right: 0;
+  background: none;
+}
+.reset {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 75px;
+  top: 200px;
+  width: 150px;
+  color: white;
+  background-color: #5c48d3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border-radius: 20px;
+  height: 60px;
+
+  font-size: 32px;
+  border: none;
+}
+
+.counter {
+  position: absolute;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  width: 150px;
+  height: 150px;
+  font-size: 96px;
+  background-color: #5c48d3;
+  border-radius: 20px;
+  color: white;
+  margin: 0 75px;
+}
