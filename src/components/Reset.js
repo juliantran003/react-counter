@@ -3,7 +3,7 @@ const Reset = (props) => {
     <button
       className={props.resetStyle}
       onClick={() => {
-        props.setCounter(props.counter - props.counter);
+        props.setCounter(0);
       }}
     >
       Reset
